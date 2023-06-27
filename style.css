@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.btn img{
+    width: 50px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    width: 50vw;
+    height: 70vh;
+  background: red  url("/assets/photo-1686176904188-1c4457dd493d.avif")no-repeat fixed center/cover;
+  border: 2px solid red;
+  border-radius: 10px;
+}
