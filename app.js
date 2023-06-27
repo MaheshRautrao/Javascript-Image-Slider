@@ -11,7 +11,7 @@ next.addEventListener("click", slideNext);
 let image = photos[counter];
 
 function setImage() {
-  image_container.style.background = `no-repeat fixed center url("/assets/${photos[counter]}.avif")`;
+  image_container.style.background = `no-repeat fixed center url("assets/${photos[counter]}.avif")`;
 }
 
 function slidePrev() {
